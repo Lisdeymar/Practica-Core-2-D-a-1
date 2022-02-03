@@ -38,6 +38,41 @@ last_name - Guillen
 first_name - KB
 last_name - Tonel
 '''
+#Plus first_name - Michael, last_name - Jordan
+for i in estudiantes:
+    for e in i:
+        if e == 'first_name':
+            a=e
+        else:
+            b=e
+    print(i[a],i[b])
+
+'''
+Michael Jordan
+John Rosales  
+Mark Guillen  
+KB Tonel
+'''
+
+#Plus Valor first_name, valor last_name
+
+for i in estudiantes:
+    for e in i:
+        if e == 'first_name':
+            a=e
+        else:
+            b=e
+    print(a,'-',i[a],',',b,'-',i[b])
+
+'''
+first_name - Michael , last_name - Jordan
+first_name - John , last_name - Rosales
+first_name - Mark , last_name - Guillen
+first_name - KB , last_name - Tonel
+'''
+
+
+
 #2. b)
 for i in estudiantes:
     for e in i:
